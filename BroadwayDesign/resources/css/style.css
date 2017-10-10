@@ -1,0 +1,24 @@
+body{
+	margin: auto;
+    width: 70%;
+    border: 1px solid red;
+    padding: 10px;
+    text-align: center;
+}
+
+.Header{
+	background: url(../../resources/images/theflatironbuilding.png)no-repeat center;
+}
+
+.Header p{
+	font-family: Helvetica;
+	font-size: 18px;
+	color: white;
+}
+
+h1{
+	font-family: Helvetica;
+	font-size: 70px;
+	font-weight: bold;
+	color: white;
+}
