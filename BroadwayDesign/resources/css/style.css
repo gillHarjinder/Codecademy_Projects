@@ -1,9 +1,13 @@
 body{
+    background-color: black;
+}
+
+.part{
 	margin: auto;
     width: 70%;
-    border: 1px solid red;
     padding: 10px;
     text-align: center;
+	background-color: white;
 }
 
 .Header{
@@ -35,7 +39,27 @@ h5{
 	font-weight: bold;
 }
 
-.middlePart p{
+.middlePart p, .footer p{
 	font-family: Helvetica;
 	font-size: 14px;
+}
+
+.strype{
+	background: url(../../resources/images/theflatironbuilding.png)no-repeat center;
+}
+
+
+.strype p{
+	font-family: Helvetica;
+	font-size: 23px;
+	font-weight: bold;
+	color: white;
+}
+
+.strypeTwo p{
+	text-align: left;
+	font-family: Helvetica;
+	font-size: 11px;
+	color: white;
+	background-color: dimgray;
 }
