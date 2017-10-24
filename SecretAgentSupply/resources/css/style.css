@@ -1,19 +1,191 @@
-/* for whole webpage*/
+/* default webpage*/
+html{
+	font-size: 18px;
+	background-color: white;
+}
+
+
+/*Media value for 
+	all device*/
+
+@media only screen and (max-width: 1024px) 
+body{
+	font-size:16px;
+}
+
+
+@media only screen and (max-width: 1024px) 
+nav ul{
+	display: none;
+}
+
+@media only screen and (max-width: 1024px) 
+.mobile-nav{
+	display: block;
+	text-align: center;
+}
+
+@media only screen and (max-width: 1024px)
+.product {
+    width: 47%;
+}
+
+
+
+
+
 /* Setup margin, padding, 
 	background color, 
 	of each web page*/
 body{
-	
+	font-family: Helvetica, sans-serif;
+	line-height: 1.4em;
 }
 
 
 /* Header Bar*/
 
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.company{
+	background-color: black;
+	color: white;
+}
+
+.company .container{
+	display: flex;
+	align-items: center;
+	padding: 12px 0 12px 0.5em;
+}
+
+.company img{
+	height: 1.5em;
+	padding-right: 15px;
+}
+
+img{
+	border-style: none;
+}
+
+.main-banner {
+    height: 25em;
+    background: url(../../resources/images/moto.jpeg) center center / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+div{
+	display: block;
+}
+
+h1, h4{
+	font-weight: bold;
+}
+
+h4{
+	display: block;
+	-webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.headline {
+    background-color: black;
+    color: white;
+    width: 20em;
+    position: relative;
+    top: 9em;
+    padding: 2em 3em;
+}
+
+nav {
+    background-color: firebrick;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75em 0px;
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75em 0px;
+    list-style: none;
+}
 
 
 
+.mobile-nav{
+	display: none;
+}
+
+.products, .business-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0px 0px;
+}
+
+.product-image {
+    height: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    padding: 2em 0px;
+}
+
+.description {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.product-image img {
+    max-width: 8em;
+}
+
+.product {
+    width: 30%;
+}
+
+.info{
+	width: 30%;
+}
 
 
+.info .title {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 1em 2em;
+}
 /* Main Body*/
 
 
@@ -21,6 +193,10 @@ body{
 
 
 /*footer*/
-footer{
-	
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 4em;
+    padding: 5em 0px;
 }
+
